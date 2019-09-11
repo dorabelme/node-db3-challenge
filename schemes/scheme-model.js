@@ -46,7 +46,7 @@ function update(id, changes) {
 }
 
 function remove(id) {
-    return db('caschemesrs')
+    return db('schemes')
         .where('id', id)
         .del();
 }
